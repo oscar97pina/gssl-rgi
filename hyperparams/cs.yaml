@@ -1,0 +1,18 @@
+dataset : cs
+
+emb_size : 512
+num_local_layers : 2
+num_global_layers : 1
+shift : norm_adj
+
+lambda_1 : 20
+lambda_2 : 15
+lambda_3 : 1
+
+epochs : 1000
+lr : 0.00001
+lr_warmup_epochs : 100
+weight_decay : 0.00001
+
+p_drop_x : 0.5
+p_drop_u : 0.0

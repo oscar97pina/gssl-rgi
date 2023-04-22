@@ -1,0 +1,20 @@
+dataset : ppi
+
+emb_size : 512
+num_local_layers : 3
+num_global_layers : 1
+shift : norm_adj
+
+lambda_1 : 15
+lambda_2 : 10
+lambda_3 : 10
+
+epochs : 2000
+lr : 0.0001
+lr_warmup_epochs : 200
+weight_decay : 0.00001
+
+p_drop_x : 0.0
+p_drop_u : 0.5
+
+batch_size : 1

@@ -117,7 +117,7 @@ def run(args):
         return logs
     
     step = 0
-    for epoch in range(1, args.epochs + 1):
+    for epoch in tqdm(range(1, args.epochs + 1)):
         ls_logs = list()
         for data in train_loader:
             logs = train(epoch, data)
